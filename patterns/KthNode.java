@@ -1,11 +1,11 @@
 import java.util.*;
 public class KthNode {
     static class SLLnode{
-        int dat;
+        int data1;
         SLLnode next;
 
         SLLnode(int data1,SLLnode next1){
-            this.dat= data1;
+            this.data1 = data1;
             this.next = next1;
         }
     }
@@ -50,8 +50,8 @@ public class KthNode {
             head = insert_at_end(num, head);
         }
        int k = sc.nextInt();
-       int val = find_kth_element( head, k);
-       System.out.print(val);
+       SLLnode val = find_kth_element( head, k);
+       System.out.print(val.data1);
        sc.close();
 
     }
