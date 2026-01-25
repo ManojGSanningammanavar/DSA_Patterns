@@ -33,7 +33,7 @@ int main(){
 }*/
 
 //binomial coefficient nCr
-int fact(int n){
+/*int fact(int n){
 	if(n ==0 || n==1) return 1;
     return n*fact(n-1);
 }
@@ -49,4 +49,15 @@ int ncr(int n , int r){
 int main(){
 	int n = ncr(5,2);
 	cout<<n;
+}*/
+
+bool isPowerOfTwo(int n){
+	return (n>0) &&( (n&(n-1)) ==0);
 }
+
+int main(){
+	int power = isPowerOfTwo(9);
+	cout<<power;
+	return 0;
+}
+	
