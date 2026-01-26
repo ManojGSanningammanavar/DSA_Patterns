@@ -51,7 +51,9 @@ int main(){
 	cout<<n;
 }*/
 
-bool isPowerOfTwo(int n){
+
+//check if a number is power of two
+/*bool isPowerOfTwo(int n){
 	return (n>0) &&( (n&(n-1)) ==0);
 }
 
@@ -59,5 +61,24 @@ int main(){
 	int power = isPowerOfTwo(9);
 	cout<<power;
 	return 0;
+}*/
+
+//even or odd
+/*int evenodd(int n){
+	if(n%2==0){
+		return 0;	
+    }
+	else{
+		return 1;
+	}
 }
-	
+
+int main(){
+	if(evenodd(5)==0){
+        cout<<"even";
+    }
+    else{
+        cout<<"odd";
+    }
+}*/
+
