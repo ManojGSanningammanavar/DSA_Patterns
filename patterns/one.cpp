@@ -98,18 +98,35 @@ int main(){
 	cout<<revn;
 }*/
 
-//count digits in n
-int countn(int n){
-	int count =0;
+//count digits in n + sum of digits-
+/*int countn(int n){
+	int sum =0;
 	while (n!=0){
 		int lastdigit = n%10;
-		count+=1;
+		sum+=lastdigit;
 		n/=10;
 	}
-	return count;
+	return sum;
 }
 
 int main(){
 	int count = countn(23145);
 	cout<<count;
+}*/
+
+//largest digit in  number
+/*int largest(int n){
+	int large =0;
+	while (n!=0){
+		int lastdigit = n%10;
+		if(lastdigit>large){
+		large = lastdigit;}
+		n/=10;
+	}
+	return large;
 }
+
+int main(){
+	int count = largest(23145);
+	cout<<count;
+}*/
