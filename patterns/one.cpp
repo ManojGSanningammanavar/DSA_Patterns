@@ -82,3 +82,34 @@ int main(){
     }
 }*/
 
+//reverse number
+/*int reverse(int n){
+    int rev=0;
+	while (n!=0){
+		int lastdigit = n%10;
+		rev = rev*10 + lastdigit;
+		n/=10;
+	}
+	return rev;
+}
+
+int main(){
+	int revn = reverse(23145);
+	cout<<revn;
+}*/
+
+//count digits in n
+int countn(int n){
+	int count =0;
+	while (n!=0){
+		int lastdigit = n%10;
+		count+=1;
+		n/=10;
+	}
+	return count;
+}
+
+int main(){
+	int count = countn(23145);
+	cout<<count;
+}
