@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Dutch National Flag Algorithm
 vector<int> sortArrayByParity(vector<int>& nums) {
        int left =0, right = nums.size()-1;
        while(left<right){
