@@ -5,8 +5,6 @@ int maxSubArraySum(vector<int>& arr, int k){
     int windowsum =0;
     int maxsum =0;
 
-    
-
     for(int i =0; i<k ; i++){
         windowsum += arr[i];
     }
