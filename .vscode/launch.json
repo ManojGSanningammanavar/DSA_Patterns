@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "AtoZ.basic",
+            "projectName": "DSA_66cb4acd"
+        },
+        {
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
