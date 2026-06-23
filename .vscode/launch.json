@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "add",
+            "request": "launch",
+            "mainClass": "Basics.add",
+            "projectName": "DSA_66cb4acd"
+        },
+        {
+            "type": "java",
             "name": "basic",
             "request": "launch",
             "mainClass": "AtoZ.basic",
