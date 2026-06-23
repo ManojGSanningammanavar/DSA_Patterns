@@ -26,5 +26,5 @@ using namespace std;
     char ch= '7';
     int m = ch - '0';
     cout<<m<<endl;
-     }
+    }
 
