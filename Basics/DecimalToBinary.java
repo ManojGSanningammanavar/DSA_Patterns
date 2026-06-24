@@ -10,7 +10,6 @@ public class DecimalToBinary {
             place *= 10;
             n = n/2;
         }
-
         return binary;
     }
 
@@ -20,6 +19,6 @@ public class DecimalToBinary {
         System.out.println("enter the number n : ");
         n= sc.nextInt();
         int bin = bintodec(n);
-        System.out.print("The binnary number is "+ bin);
+        System.out.print("The binnary number is " + bin);
     }
 }
