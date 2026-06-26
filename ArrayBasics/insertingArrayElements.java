@@ -26,5 +26,19 @@ public class insertingArrayElements {
             System.out.print(arr[i]);
             System.out.println(" ");
         }
+
+        // array element deletion 
+        System.out.print("Enter the postion to delete : ");
+        int deletepos = sc.nextInt();
+
+        for(int i =deletepos; i<arr.length-1; i++){
+            arr[i] = arr[i+1];
+        }
+        size--;
+        
+        for(int i =0;  i < arr.length-1; i++){
+            System.out.print(arr[i]);
+            System.out.print(" ");
+        }
     }
 }
