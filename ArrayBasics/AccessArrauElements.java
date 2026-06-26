@@ -12,6 +12,15 @@ public class AccessArrauElements {
         for(int i =0; i<n; i++){
             arr[i] = sc.nextInt();
         }
-        System.out.println(arr[3]);
+        //access array
+        System.out.println("Element at index 3 is "+arr[3]);
+
+        // update array element and traversal  ;
+        arr[5] = 5;
+        System.out.println("The array elments after updation are : ");
+        for(int val: arr){
+            System.out.print(val);
+            System.out.print(" ");
+        }
     }
 }
