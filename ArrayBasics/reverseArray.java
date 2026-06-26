@@ -15,16 +15,24 @@ public class reverseArray {
         arr[i] = sc.nextInt();
     }
 
-    int rev[] = new int[n];
+//    int rev[] = new int[n];
     
-    for(int i = 0; i<n; i++){
-        rev[i] = arr[arr.length-1-i];
-    }
+//     for(int i = 0; i<n; i++){
+//         rev[i] = arr[arr.length-1-i];
+//     }
 
-    System.out.println("The array reversed as : ");
-    for(int i =0; i<rev.length; i++){
-        System.out.print(rev[i]);
+//     System.out.println("The array reversed as : ");
+//         for(int i =0; i<rev.length; i++){
+//             System.out.print(rev[i]);
+//             System.out.print(" ");
+//         }
+
+
+//Basic method
+    for(int i = arr.length-1;i>=0; i--){
+        System.out.print(arr[i]);
         System.out.print(" ");
     }
 }
 }
+
