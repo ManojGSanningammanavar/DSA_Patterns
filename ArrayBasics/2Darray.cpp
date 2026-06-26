@@ -1,15 +1,16 @@
 #include<iostream>
+#include<utility>
 using namespace std;
 
-bool linearSearch(int row, int col,int arr[][100], int k){
+pair<int,int> linearSearch(int row, int col,int arr[][100], int k){
     for(int i =0; i<row; i++){
         for(int j =0; j<col; j++){
             if(arr[i][j]==k){
-                return true;
+                return {i,j};
             }
         }
     }
-    return false;
+    return {-1,-1};
 }
 
 int main(){
@@ -38,6 +39,7 @@ int main(){
         cout<<endl;
     }
 
-    cout<<linearSearch(n,m,arr,7);
+    pair<int, int> ans = linearSearch(n, m, arr, 2);
+    cout<<ans.first<<ans.second;;
     return 0;
 }
